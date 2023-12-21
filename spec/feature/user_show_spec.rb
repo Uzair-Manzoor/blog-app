@@ -17,7 +17,6 @@ RSpec.feature 'User show page' do
 
   scenario 'Displays user 3 posts' do
     visit user_path(user1)
-
     expect(page).to have_content(post1.title)
     expect(page).to have_content(post2.title)
     expect(page).to have_content(post3.title)
@@ -33,9 +32,7 @@ RSpec.feature 'User show page' do
 
   scenario 'click on user post redirects to that post show page.' do
     visit user_path(user1)
-
     click_link post1.title
-    sleep(1)
     expect(current_path).to eq(user_post_path(user1, post1))
   end
 end

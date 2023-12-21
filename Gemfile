@@ -70,3 +70,5 @@ group :test do
 end
 
 gem 'rails-controller-testing'
+
+gem 'will_paginate', '~> 3.3'
