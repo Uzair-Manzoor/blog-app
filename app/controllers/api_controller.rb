@@ -1,4 +1,4 @@
-class Api::V1::ApiController < ApplicationController
+class ApiController < ApplicationController
   before_action :set_default_format
 
   def set_default_format
