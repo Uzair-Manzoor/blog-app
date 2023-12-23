@@ -11,7 +11,8 @@ class Api::CommentsController < ApiController
     if comment.save
       render json: { success: 'Comment created successfully' }
     else
-      render json: { error: 'Failed to create comment', details: comment.errors.full_messages }, status: :unprocessable_entity
+      render json: { error: 'Failed to create comment', details: comment.errors.full_messages },
+             status: :unprocessable_entity
     end
   end
 end
