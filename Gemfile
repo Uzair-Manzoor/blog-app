@@ -77,3 +77,5 @@ gem 'will_paginate', '~> 3.3'
 gem 'cancancan'
 
 gem 'jwt'
+
+gem 'rswag'
