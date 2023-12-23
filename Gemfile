@@ -73,3 +73,5 @@ end
 gem 'rails-controller-testing'
 
 gem 'will_paginate', '~> 3.3'
+
+gem 'cancancan'
