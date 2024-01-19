@@ -74,6 +74,8 @@ rspec
 ## 👥 Author <a name="authors"></a>
 
 - GitHub: [@Uzair Manzoor](https://github.com/Uzair-Manzoor)
+- Twitter: [@Uzair Manzoor](https://twitter.com/uzair.kiyani5555)
+- LinkedIn: [@Uzair Manzoor](https://linkedin.com/in/uzair-manzoor-b69996115)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
